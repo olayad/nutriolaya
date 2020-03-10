@@ -1,0 +1,39 @@
+
+
+
+.navbar{
+  font-family: Bellota !important;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default{
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  transition: all 1s;
+}
+
+body{
+  padding-top: 70px; /* required by fixed-top navbar */
+  font-family: Bellota, serif !important;
+  background-color: #eee;
+}
+
+#img-intro{
+  width: 100%;
+}
+
+#img-woman-sitting{
+  width: 100%;
+}
+
+
+#btn-conoce{
+  color: white;
+  background-color: #85144b;
+  border: none;
+}
