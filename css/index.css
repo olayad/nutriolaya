@@ -1,13 +1,18 @@
 
-
+nav{
+  color: #111111;
+}
 
 .navbar{
   font-family: Bellota !important;
   font-weight: bold;
   font-size: 1.25em;
+      color: #111111;
+
 }
 .navbar .navbar-collapse {
   text-align: center;
+
 }
 
 .navbar-default{
@@ -15,12 +20,24 @@
   border-radius: 0;
   background: transparent;
   transition: all 1s;
+
 }
+
+.navbar-brand, .nav-link{
+  color: #111111;
+}
+
+
+/*.nav-item{*/
+/*    color: #111111;*/
+
+/*}*/
 
 body{
   padding-top: 70px; /* required by fixed-top navbar */
   font-family: Bellota, serif !important;
   background-color: #eee;
+  color: #111111;
 }
 
 #img-intro{
