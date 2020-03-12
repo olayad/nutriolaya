@@ -10,6 +10,9 @@ nav{
       color: #111111;
 
 }
+
+
+
 .navbar .navbar-collapse {
   text-align: center;
 
@@ -22,7 +25,6 @@ nav{
   transition: all 1s;
 
 }
-
 .navbar-brand, .nav-link{
   color: #111111;
 }
@@ -32,6 +34,12 @@ nav{
 /*    color: #111111;*/
 
 /*}*/
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
 
 body{
   padding-top: 70px; /* required by fixed-top navbar */
@@ -44,13 +52,19 @@ body{
   width: 100%;
 }
 
-#img-woman-sitting{
-  width: 100%;
+#img-me{
+  border-color: black;
 }
 
 
 #btn-conoce{
   color: white;
   background-color: #85144b;
+  border: none;
+}
+
+#btn-servicios{
+  color: #004966;
+  background-color: #7FDBFF;
   border: none;
 }
