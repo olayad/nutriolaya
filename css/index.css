@@ -1,3 +1,10 @@
+body{
+  padding-top: 70px; /* required by fixed-top navbar */
+  font-family: Bellota, serif !important;
+  background-color: #eee;
+  color: #111111;
+
+}
 
 nav{
   color: #111111;
@@ -11,11 +18,8 @@ nav{
 
 }
 
-
-
 .navbar .navbar-collapse {
   text-align: center;
-
 }
 
 .navbar-default{
@@ -23,17 +27,12 @@ nav{
   border-radius: 0;
   background: transparent;
   transition: all 1s;
-
 }
+
 .navbar-brand, .nav-link{
   color: #111111;
 }
 
-
-/*.nav-item{*/
-/*    color: #111111;*/
-
-/*}*/
 
 .card {
         margin: 0 auto; /* Added */
@@ -41,19 +40,13 @@ nav{
         margin-bottom: 10px; /* Added */
 }
 
-body{
-  padding-top: 70px; /* required by fixed-top navbar */
-  font-family: Bellota, serif !important;
-  background-color: #eee;
-  color: #111111;
-}
-
-#img-intro{
-  width: 100%;
-}
+/*#img-intro{*/
+/*  width: 100%;*/
+/*}*/
 
 #img-me{
-  border-color: black;
+  max-height: 350px;
+  /*border-color: black;*/
 }
 
 
@@ -68,3 +61,141 @@ body{
   background-color: #7FDBFF;
   border: none;
 }
+
+/* Footer */
+.wn-footer {
+padding: 1.5rem;
+text-align: center;
+color: white;
+  background-color: #85144b;
+border-top: .05rem solid #e5e5e5;
+}
+
+.wn-footer a {
+color: yellow;
+}
+
+
+
+
+
+/* Header Parallax Element Style*/
+.paral {
+min-height: 600px;
+background-attachment: fixed;
+/*background-size: cover;*/
+background-repeat: no-repeat;
+/*background-position: 50% 50%;*/
+}
+
+/* Paragrapgh for Parallax Section */
+.paral p {
+font-size: 24px;
+color: #111111;
+text-align: center;
+line-height: 60px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+/*color: rgba(255, 255, 255, 0.8);*/
+  color: whitesmoke;
+  /*  color: #111111;*/
+
+  font-size: 60px;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 100px;
+}
+
+
+
+/* Image for Parallax Section */
+.paral-intro {
+  background-image:url("../static/food2.jpeg");
+}
+
+.paralsec1 {
+background-image: url("https://img.webnots.com/2017/05/parallax1.jpg");}
+
+.paralsec2 {
+background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
+}
+
+
+.jumbotron{
+  margin-bottom: 0;
+
+
+
+}
+
+
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.2;
+    color: #fff;
+    background: #000 url("https://bootstrapcreative.com/wp-bc/wp-content/uploads/2017/03/learning-story.png") top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.jumbotron-billboard-DANY .img {
+    margin-bottom: 0px;
+    opacity: 0.5;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+    position:relative;
+    top:0;
+    left:0;
+    z-index:1;
+
+
+      background: #000 url("../static/food2.jpeg") ;
+
+  min-height: 600px;
+background-attachment: fixed;
+/*background-size: cover;*/
+background-repeat: no-repeat;
+/*background-position: 50% 50%;*/
+
+
+}
+
+
+
+.jumbotron h2 {
+  margin-top:0;
+  z-index: 1;
+  position: absolute;
+}
+
+.jumbotron {
+  /*position: relative;*/
+  position:relative;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.jumbotron .container {
+  position:absolute;
+  z-index:2;
+}
+
+/*@media screen and (max-width: 768px) {*/
+/*  .jumbotron {*/
+/*    padding-top:20px;*/
+/*    padding-bottom:20px;*/
+/*  }*/
+/*}*/
+
+
+
+
