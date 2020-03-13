@@ -50,24 +50,27 @@ nav{
 }
 
 
-#btn-conoce{
-  color: white;
-  background-color: #85144b;
-  border: none;
+.leer-mas{
+
+  color: #85144b;
+  background-color: transparent;
+  border-color: #85144b;
+    /*border: none;*/
+    /*background-color: #85144b;*/
 }
 
-#btn-servicios{
-  color: #004966;
-  background-color: #7FDBFF;
-  border: none;
-}
+/*#btn-consulta, #btn-taller, #btn-cacao{*/
+/*  color: #004966;*/
+/*  background-color: #7FDBFF;*/
+/*  border: none;*/
+/*}*/
 
 /* Footer */
 .wn-footer {
 padding: 1.5rem;
 text-align: center;
-color: white;
-  background-color: #85144b;
+color: black;
+  background-color: transparent;
 border-top: .05rem solid #e5e5e5;
 }
 
@@ -79,16 +82,23 @@ color: yellow;
 
 
 
-/* Header Parallax Element Style*/
 .paral {
-min-height: 600px;
+/*min-height: 400px;*/
 background-attachment: fixed;
-/*background-size: cover;*/
+background-size: cover;
 background-repeat: no-repeat;
 /*background-position: 50% 50%;*/
 }
 
-/* Paragrapgh for Parallax Section */
+.paral-lg{
+    min-height: 400px;
+
+}
+
+.paral-md{
+    min-height: 200px;
+
+}
 .paral p {
 font-size: 24px;
 color: #111111;
@@ -96,23 +106,35 @@ text-align: center;
 line-height: 60px;
 }
 
-/* Heading for Parallax Section */
 .paral h1 {
 /*color: rgba(255, 255, 255, 0.8);*/
-  color: whitesmoke;
-  /*  color: #111111;*/
+/*  color: whitesmoke;*/
+    color: #111111;
 
   font-size: 60px;
   text-align: center;
   padding-top: 60px;
   line-height: 100px;
+
+      text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
 
 
-/* Image for Parallax Section */
-.paral-intro {
-  background-image:url("../static/food2.jpeg");
+.paral-first {
+
+  background-image:url("../static/food2-v1.png");
 }
 
 .paralsec1 {
