@@ -139,12 +139,80 @@ nav{
 }
 
 
-/*Animated underline hover*/
+/*Animated underline hover - original*/
+/*!** Hover-related CSS **!*/
+/* #examples {*/
+/*	 display: flex;*/
+/*	 flex-flow: column;*/
+/*	 max-width: 100%;*/
+/*	 width: 960px;*/
+/*	 background-color: white;*/
+/*	 opacity: 0.95;*/
+/*	 padding: 15px 30px;*/
+/*	 margin: 0 auto 30px;*/
+/*}*/
+
+/* #examples .titulo {*/
+/*	 display: flex;*/
+/*	 flex-flow: row nowrap;*/
+/*	 align-items: center;*/
+/*	 margin: 0 0 45px;*/
+/*}*/
+/* #examples .titulo .hover {*/
+/*	 font-size: 36px;*/
+/*	 text-align: center;*/
+/*	 margin: 0 auto;*/
+/*	 padding: 0;*/
+/*	 transition: all 0.2s ease-in-out;*/
+/*	 position: relative;*/
+/*}*/
+/* #examples .titulo .hover:before, #examples .titulo .hover:after {*/
+/*	 content: "";*/
+/*	 position: absolute;*/
+/*	 bottom: -10px;*/
+/*	 width: 0px;*/
+/*	 height: 5px;*/
+/*	 margin: 5px 0 0;*/
+/*	 transition: all 0.2s ease-in-out;*/
+/*	 transition-duration: 0.75s;*/
+/*	 opacity: 0;*/
+/*	 background-color: #e69500;*/
+/*}*/
+/* #examples .titulo .hover.hover-left-right:before, #examples .titulo .hover.hover-left-right:after {*/
+/*	 left: 0;*/
+/*}*/
+/* #examples .titulo .hover.hover-right-left:before, #examples .titulo .hover.hover-right-left:after {*/
+/*	 right: 0;*/
+/*}*/
+/* #examples .titulo .hover.hover-outwards:before {*/
+/*	 left: 50%;*/
+/*}*/
+/* #examples .titulo .hover.hover-outwards:after {*/
+/*	 right: 50%;*/
+/*}*/
+/* #examples .titulo .hover.hover-inwards:before {*/
+/*	 left: 0;*/
+/*}*/
+/* #examples .titulo .hover.hover-inwards:after {*/
+/*	 right: 0;*/
+/*}*/
+/* #examples .titulo:hover {*/
+/*	 cursor: pointer;*/
+/*}*/
+/* #examples .titulo:hover .hover:before, #examples .titulo:hover .hover:after {*/
+/*	 width: 100%;*/
+/*	 opacity: 1;*/
+/*}*/
+/* #examples .titulo:hover .hover.hover-outwards:before, #examples .titulo:hover .hover.hover-inwards:before, #examples .titulo:hover .hover.hover-outwards:after, #examples .titulo:hover .hover.hover-inwards:after {*/
+/*	 width: 50%;*/
+/*}*/
 
 
+
+/*DANY*/
 /** Hover-related CSS **/
- #examples {
-	 display: flex;
+.titulo {
+     display: flex;
 	 flex-flow: column;
 	 max-width: 100%;
 	 width: 960px;
@@ -152,19 +220,13 @@ nav{
 	 opacity: 0.95;
 	 padding: 15px 30px;
 	 margin: 0 auto 30px;
-}
- #examples h1 {
-	 font-size: 48px;
-	 text-align: center;
-	 margin: 30px 15px 60px;
-}
- #examples .example {
 	 display: flex;
 	 flex-flow: row nowrap;
 	 align-items: center;
 	 margin: 0 0 45px;
 }
- #examples .example .hover {
+
+.titulo .hover {
 	 font-size: 36px;
 	 text-align: center;
 	 margin: 0 auto;
@@ -172,7 +234,7 @@ nav{
 	 transition: all 0.2s ease-in-out;
 	 position: relative;
 }
- #examples .example .hover:before, #examples .example .hover:after {
+.titulo .hover:before, .titulo .hover:after {
 	 content: "";
 	 position: absolute;
 	 bottom: -10px;
@@ -184,31 +246,31 @@ nav{
 	 opacity: 0;
 	 background-color: #e69500;
 }
- #examples .example .hover.hover-1:before, #examples .example .hover.hover-1:after {
+.titulo .hover.hover-left-right:before, .titulo .hover.hover-left-right:after {
 	 left: 0;
 }
- #examples .example .hover.hover-2:before, #examples .example .hover.hover-2:after {
+.titulo .hover.hover-right-left:before, .titulo .hover.hover-right-left:after {
 	 right: 0;
 }
- #examples .example .hover.hover-3:before {
+.titulo .hover.hover-outwards:before {
 	 left: 50%;
 }
- #examples .example .hover.hover-3:after {
+.titulo .hover.hover-outwards:after {
 	 right: 50%;
 }
- #examples .example .hover.hover-4:before {
+.titulo .hover.hover-inwards:before {
 	 left: 0;
 }
- #examples .example .hover.hover-4:after {
+.titulo .hover.hover-inwards:after {
 	 right: 0;
 }
- #examples .example:hover {
+.titulo:hover {
 	 cursor: pointer;
 }
- #examples .example:hover .hover:before, #examples .example:hover .hover:after {
+.titulo:hover .hover:before, .titulo:hover .hover:after {
 	 width: 100%;
 	 opacity: 1;
 }
- #examples .example:hover .hover.hover-3:before, #examples .example:hover .hover.hover-4:before, #examples .example:hover .hover.hover-3:after, #examples .example:hover .hover.hover-4:after {
+.titulo:hover .hover.hover-outwards:before, .titulo:hover .hover.hover-inwards:before, .titulo:hover .hover.hover-outwards:after, .titulo:hover .hover.hover-inwards:after {
 	 width: 50%;
 }
