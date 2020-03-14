@@ -3,7 +3,15 @@ body{
     font-family: Bellota, serif !important;
     background-color: #eee;
     color: #111111;
+    line-height: 1.75em
 }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1.75em
+
+}
+
 
 nav{
     color: #111111;
@@ -37,6 +45,17 @@ nav{
     margin-bottom: 10px;
 }
 
+.contact{
+    font-family: Bellota !important;
+    /*font-weight: bold;*/
+    font-size: 1.5em;
+    color: #111111;
+    /*padding-top:100px;*/
+    display: inline-block;
+    /*text-decoration: none;*/
+    /*padding-top: 52px;*/
+    /*margin-top: 5px;*/
+}
 
 #img-me{
     max-height: 350px;
@@ -99,14 +118,31 @@ nav{
 }
 
 .paral-first {
-  background-image:url("../static/food2-v1.png");
+    background-image:url("../static/food2-v1.png");
 }
 
 .jumbotron{
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  filter: invert(1);
+    filter: invert(1);
+}
+
+/*.scale{*/
+/*  transform: scale(1, 1);*/
+/*  transition: transform 0.5s ease;*/
+/*}*/
+
+/*.box:hover .scale{*/
+/*  transform: scale(1.5, 1.5);*/
+/*}*/
+
+.card:hover {
+      transform: scale(1.1);
+  /*transition: 0.2s all cubic-bezier(0.175, 0.1, 0.32, 0.275);*/
+
+  transition: 0.2s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
 }
