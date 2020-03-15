@@ -82,11 +82,11 @@ nav{
     /*background-color: #85144b;*/
 }
 
-.wn-footer {
-    padding: 1.5rem;
+.footer {
+    padding: 0.75rem 0.75rem;
     text-align: center;
     color: black;
-    background-color: transparent;
+/*    background-color: transparent;*/
     border-top: .05rem solid #e5e5e5;
 }
 
