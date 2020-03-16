@@ -1,3 +1,7 @@
+#img-me{
+    max-height: 350px;
+}
+
 body{
     padding-top: 70px; /* required by fixed-top navbar */
     font-family: Bellota, serif !important;
@@ -9,11 +13,7 @@ body{
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 1.75em
-
 }
-
-/*!*Fixes navbar anchor points hidding content*!*/
-/*.anchor { padding-top: 70px; }*/
 
 nav{
     color: #111111;
@@ -49,14 +49,10 @@ nav{
 
 /*Card animation*/
 .card:hover {
-      transform: scale(1.1);
-  /*transition: 0.2s all cubic-bezier(0.175, 0.1, 0.32, 0.275);*/
-
-  transition: 0.2s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: 0.2s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
 }
-
-
 
 .contact{
     font-family: Bellota !important;
@@ -64,11 +60,6 @@ nav{
     color: #111111;
     display: inline-block;
 }
-
-#img-me{
-    max-height: 350px;
-}
-
 
 .leer-mas{
     color: #85144b;
@@ -81,21 +72,11 @@ nav{
 }
 
 .paral {
-    /*min-height: 400px;*/
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0;
 }
 
-/*.paral-lg{*/
-/*    min-height: 400px;*/
-
-/*}*/
-
-/*.paral-md{*/
-/*    min-height: 150px;*/
-
-/*}*/
 .paral p {
     font-size: 24px;
     color: #111111;
@@ -124,12 +105,9 @@ nav{
 
 .paral-vine {
     background-attachment: fixed;
-
     background-image:url("../static/vine.png");
     /*height: 50px*/
-
 }
-
 
 .jumbotron{
     margin-bottom: 0;
@@ -141,14 +119,12 @@ nav{
     filter: invert(1);
 }
 
-
 .shapes{
     background: url("../static/cloud.png") no-repeat center center fixed;
     background-size: cover;
-
 }
 
-.no-stretch{
-    max-height: 100%;
-    height: auto;
-}
+/*.no-stretch{*/
+/*    max-height: 100%;*/
+/*    height: auto;*/
+/*}*/
