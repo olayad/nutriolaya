@@ -12,6 +12,8 @@ h1, h2, h3, h4, h5, h6,
 
 }
 
+/*!*Fixes navbar anchor points hidding content*!*/
+/*.anchor { padding-top: 70px; }*/
 
 nav{
     color: #111111;
@@ -58,44 +60,31 @@ nav{
 
 .contact{
     font-family: Bellota !important;
-    /*font-weight: bold;*/
     font-size: 1.5em;
     color: #111111;
-    /*padding-top:100px;*/
     display: inline-block;
-    /*text-decoration: none;*/
-    /*padding-top: 52px;*/
-    /*margin-top: 5px;*/
 }
 
 #img-me{
     max-height: 350px;
-    /*border-color: black;*/
 }
 
 
 .leer-mas{
     color: #85144b;
-    /*background-color: transparent;*/
-    /*border-color: #85144b;*/
-    /*border: none;*/
-    /*background-color: #85144b;*/
 }
 
 .footer {
     padding: 0.75rem 0.75rem;
     text-align: center;
     color: black;
-/*    background-color: transparent;*/
-    border-top: .05rem solid #e5e5e5;
 }
 
 .paral {
     /*min-height: 400px;*/
-    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    /*background-position: 50% 50%;*/
+    border-radius: 0;
 }
 
 /*.paral-lg{*/
@@ -125,14 +114,18 @@ nav{
 }
 
 .paral-food {
-    /*background-image:url("../static/food1.jpeg");*/
-
-    background-image:url("../static/food2-v1.png");
-    min-height: 450px;
+    background-image:url("../static/first.jpeg");
+    /*background-attachment: fixed;*/
+    /*background-position: 50% 50%;*/
+    background-position: left center;
+    /*background-image:url("../static/food2-v1.png");*/
+    min-height: 420px;
 }
 
 .paral-vine {
-    background-image:url("../static/vine3.png");
+    background-attachment: fixed;
+
+    background-image:url("../static/vine.png");
     /*height: 50px*/
 
 }
