@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bellota:400,700&display=swap">
     <link rel="stylesheet" href="css/index.css">
+
+
 </head>
 <body>
 
@@ -42,13 +44,13 @@
     </div>
 
 
+
 <!-- Page Content -->
 <!-- First Parallax Section -->
     <div class="jumbotron paral paral-food">
         <h1 class="display-3">Salud y felicidad a tu alcance </h1>
         <p class="lead">Experimenta las posibilidades de medicina holística</p>
     </div>
-
 
 <!-- Acerca de mi -->
 <div class="div pb-5 pt-5 shapes">
@@ -65,7 +67,18 @@
 
                     <h5 class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eos labore minus molestiae molestias nam nobis odit rem sunt veritatis.</h5>
                     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem delectus dicta esse itaque laborum officia sit sunt tenetur, ullam voluptatibus!</h5>
-                    <a href="#" class=" leer-mas pt-1">Leer más  <i class="fas fa-angle-right"></i></a>
+                    <div class="collapse" id="bio">
+                        <h5>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt laboriosam modi nam nulla obcaecati provident quibusdam totam ut vero. Eligendi esse facilis in incidunt mollitia odio perferendis quibusdam!
+                        </h5>
+                        <h5>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem dolor ducimus eaque earum esse facilis itaque magni modi necessitatibus, numquam praesentium ratione temporibus, velit.
+                        </h5>
+                    </div>
+                    <a id="leer" class="leer-mas pt-1" data-toggle="collapse" href="#bio" role="button" aria-expanded="false" aria-controls="bio">
+                        <span id="conoce-mas" class="toggle-collapse active">Leer más  <i class="fas fa-angle-right"></i></span>
+                        <span id="conoce-menos" class="toggle-collapse">Leer menos  <i class="fas fa-angle-left"></i></span>
+                    </a>
                 </div>
             </div>
             <div class="col-md-1"></div>
@@ -178,6 +191,7 @@
     </div>
 </div>
 
+
 <!-- Footer -->
 <footer class="footer bg-light ">
     <a href="#"> <img src="static/logo.png" width="150" ></a><br>
@@ -185,7 +199,6 @@
         <a href="https://www.facebook.com/melisa.olaya.7" class="contact pr-3"><i class="fab fa-facebook-square"></i></a>
         <a href="https://www.instagram.com/nutriolaya/" class="contact"><i class="fab fa-instagram"></i></a>
     </div>
-
 </footer>
 
 
@@ -199,8 +212,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 <script type="text/javascript" src="./js/offset.js"></script>
-
-
 </body>
 </html>
 
