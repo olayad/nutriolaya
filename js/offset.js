@@ -9,9 +9,15 @@ $('.nav-link').click(function(){
 
 
 // Expands about me section
+// $(document).ready(function() {
+//     $('#conoce').click(function () {
+//         $('#conoce-mas').toggleClass("active");
+//         $('#conoce-menos').toggleClass("active");
+//     });
+// });
 $(document).ready(function() {
-    $('#conoce').click(function () {
-        $('#conoce-mas').toggleClass("active");
-        $('#conoce-menos').toggleClass("active");
+    $('.conoce').click(function () {
+        $('.conoce-mas').toggleClass("active");
+        $('.conoce-menos').toggleClass("active");
     });
 });
