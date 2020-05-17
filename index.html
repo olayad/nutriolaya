@@ -11,12 +11,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bellota:400,700&display=swap">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="css/index.css">
-
-
 </head>
 <body>
+
 
 <!-- Navbar -->
     <div class="container">
@@ -29,7 +27,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#img-me" class="nav-item nav-link">Conóceme</a>
+                        <a href="#inicio" class="nav-item nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#conoceme" class="nav-item nav-link">Conóceme</a>
                     </li>
                     <li class="nav-item">
                         <a href="#servicios" class="nav-item nav-link">Servicios</a>
@@ -47,18 +48,23 @@
 
 
 <!-- Jumbotron -->
-    <div class="jumbotron paral paral-intro">
+    <div class="jumbotron paral succ-img">
         <h1 class="display-3">Nutre tu cuerpo, purifica tu mente & </h1>
-        <h1 class="display-3">sana tu corazón… </h1>
+        <h1 class="display-3">abre tu corazón… </h1>
 <!--        <p class="lead blend"></p>-->
     </div>
 
+# TODO: remove underline from leermas
+# merge vine with background?
+# change font?
+
 <!-- Nutriolaya -->
 <!--<div class="jumbotron paral paral-vine"></div>-->
-<div class="div pb-5 pt-5 shapes">
+<div id="inicio" class="div pb-5 pt-5 shapes">
     <div class="row">
        <div class="col-12">
-           <h2 class="maroon font-weight-bold text-center">NutriOlaya</h2>
+<!--           <img class="mx-auto d-block" src="./static/logo.png" width="150">-->
+           <h2 class="maroon font-weight-bold text-center">¿Qué es NutriOlaya?</h2>
        </div>
     </div>
     <div class="row">
@@ -82,7 +88,7 @@
 
 <!-- Conoceme -->
 <div class="jumbotron paral paral-vine"></div>
-<div class="div pb-5 pt-5 shapes">
+<div id="conoceme" class="div pb-5 pt-5 shapes">
         <div class="row align-items-center">
             <div class="col-md-1"></div>
             <div class="col-12 col-md-5">
@@ -91,7 +97,7 @@
             <div class="col-12 col-md-5 align-self-center">
                 <div class="container-fluid pt-1">
                     <h2 class="maroon font-weight-bold">Conóceme</h2>
-                    <h5 class="pt-1">¡Hola! Mi nombre es Melisa, soy terapeuta holística y Nutrióloga (ced. prof. 7247290) especialista en diabetes y control de peso. </h5>
+                    <h5 class="pt-1">¡Hola! Mi nombre es Melisa, soy terapeuta holística y Nutrióloga especialista en diabetes y control de peso. </h5>
                     <div class="collapse" id="bio">
                         <h5>Desde que concluí la licenciatura me he dedicado a la consulta privada. Durante este tiempo también he realizado distintas actividades como dar conferencias y talleres a empresas, he participado en programas de televisión y radio, también he colaborado realizando menús para servicios de alimentos, entre algunas otras. Todo eso me llevó a descubrir que el servir y ayudar a otros es sin duda lo que más me apasiona en la vida; conocer a las personas, escucharlas, conectar con ellas, acompañarlas en su camino y compartirles mi experiencia con amor, ¡llenan mi alma de alegría!</h5>
                         <h5>A lo largo del camino, he vivido situaciones complejas, las cuales hoy agradezco infinitamente, pues despertaron en mí la necesidad de buscar claridad y paz en mi vida. Todo ello me ha llevado a un camino de autoconocimiento y sanación a través del cual he perdonado, me he liberado de prejuicios, miedos, creencias limitantes y he recordado el propósito más grande de la vida que es amarme a mí y a los demás. </h5>
@@ -121,7 +127,7 @@
               <img class="card-img-top" src="static/salad.jpeg" alt="consulta">
               <div class="card-body">
                 <h5 class="card-title maroon font-weight-bold">Consultas de Nutrición</h5>
-                <p class="card-text">Emprenderás un camino de consciencia acerca del impacto que tiene la alimentación en las distintas áreas de tu vida (física, emocional y mental), para que elijas tomar decisiones que te llevarán a un estado de bienestar.</p>
+                <p class="card-text">Emprenderás un camino de consciencia acerca del impacto que tiene la alimentación a nivel físico, mental y emocional.</p>
                 <a href="#" class="leer">Leer más  <i class="fas fa-angle-right"></i></a>
               </div>
             </div>
@@ -139,7 +145,7 @@
               <img class="card-img-top" src="./static/reiki.jpg" alt="reiki">
               <div class="card-body">
                   <h5 class="card-title maroon font-weight-bold">Sonoterapia & Reiki</h5>
-                  <p class="card-text">Esta experiencia te ayuda a regresar al momento presente, elevar tu vibración interna y a atraer las bendiciones que la vida tiene para ti.</p>
+                  <p class="card-text">Emprenderás un camino de consciencia acerca del impacto que tiene la alimentación a nivel físico, mental y emocional.</p>
                   <a href="#" class="leer">Leer más<i class="fas fa-angle-right"></i></a>
               </div>
             </div>
@@ -156,10 +162,10 @@
             </div>
 
             <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-              <img class="card-img-top" src="./static/hemp.png" alt="Superfoods">
+              <img class="card-img-top" src="./static/hemp.jpg" alt="Superfoods">
               <div class="card-body">
-                <h5 class="card-title maroon font-weight-bold">Super foods</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, ratione.</p>
+                <h5 class="card-title maroon font-weight-bold">Venta de Superfoods y CBD</h5>
+                <p class="card-text">Los superfoods son alimentos que aportan múltiples beneficios a la salud, debido a su alto contenido de vitaminas, minerales, enzimas, proteínas, ácidos grasos esenciales y antioxidantes.</p>
                 <a href="#" class="leer">Leer más  <i class="fas fa-angle-right"></i></a>
               </div>
             </div>
@@ -211,12 +217,11 @@
     </div>
 </div>
 
-<!-- Fourth Parallax Section -->
-<div class="jumbotron paral paral-vine"></div>
 
 <!-- Contacto -->
-<div class="div pt-4 pb-4 shapes">
-    <div id="contacto" class="container ">
+<div class="jumbotron paral paral-vine"></div>
+<div id="contacto" class="div pt-4 pb-4 shapes">
+    <div class="container ">
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-12 col-md-4 my-auto mx-auto">

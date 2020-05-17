@@ -116,9 +116,18 @@ nav{
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
 }
 
-.paral-intro {
+.succ-img {
     background-image:url("../static/suculent.png");
     /*background-attachment: fixed;*/
+    /*background-position: bottom;*/
+    background-position: center right;
+    /*min-height: 420px;*/
+    /*max-height: 350px;*/
+}
+
+.food-img {
+    background-image:url("../static/food2-v1.png");
+    background-attachment: fixed;
     /*background-position: bottom;*/
     background-position: center right;
     /*min-height: 420px;*/
