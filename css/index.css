@@ -127,10 +127,10 @@ nav{
 
 .food-img {
     background-image:url("../static/food2-v1.png");
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     /*background-position: bottom;*/
-    background-position: center right;
-    /*min-height: 420px;*/
+    background-position: top;
+    min-height: 250px;
     /*max-height: 350px;*/
 }
 
@@ -156,3 +156,16 @@ nav{
     background-size: cover;
 }
 
+hr.faded {
+    border: 0;
+    height: 1px;
+    /*background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));*/
+    background-image: linear-gradient(to right, rgba(133, 20, 75, 0), rgba(133, 20, 75, 0.75), rgba(133, 20, 75, 0));
+}
+
+hr.styled{
+border: 0;
+height: 55px;
+background-image: url("../static/hr.png");
+background-repeat: no-repeat;
+}
