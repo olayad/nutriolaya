@@ -62,18 +62,29 @@
     border-radius: 0;
 }
 
-.paral p {
-    font-size: 60px;
+.paral h1 {
+    /*color: #111111;*/
+    font-size: 50px;
     text-align: center;
     padding-top: 60px;
     line-height: 100px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    filter: drop-shadow(.035em .035em silver)
+    /*mix-blend-mode: difference;*/
 }
 
-.blend {
+/*.paral p {*/
+/*    font-size: 60px;*/
+/*    text-align: center;*/
+/*    padding-top: 60px;*/
+/*    line-height: 100px;*/
+/*}*/
+
+/*.blend {*/
   /*mix-blend-mode: difference;*/
   /*color: white;*/
-  filter: drop-shadow(.035em .035em silver)
-}
+  /*filter: drop-shadow(.035em .035em silver)*/
+/*}*/
 
 .succ-img {
     background-image:url("../static/suculent.png");
@@ -108,7 +119,7 @@
 }
 
 .testimonio{
-    margin: 25px 120px 25px 120px;
+    margin: 25px 30px 25px 30px;
     text-align: justify;
 }
 
