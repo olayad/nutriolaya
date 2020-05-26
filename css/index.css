@@ -3,7 +3,7 @@
 }
 
 #carousel-tetimonios{
-    height: 370px;
+    /*height: 370px;*/
 }
 
 .leer{
@@ -64,11 +64,6 @@
     color: black;
 }
 
-.paral {
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 0;
-}
 
 .paral h1 {
     /*color: #111111;*/
@@ -81,40 +76,41 @@
     /*mix-blend-mode: difference;*/
 }
 
-.succ-img {
+.paral {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.paral-vine {
+    background-image:url("../static/vine.png");
+    background-position: bottom right;
+}
+
+.paral-succ {
     background-image:url("../static/suculent.png");
     background-position: center right;
 }
 
-.food-img {
+.paral-food {
     background-image:url("../static/food2-v1.png");
     background-position: top;
     min-height: 250px;
 }
 
-.paral-vine {
+.paral-fixed {
     background-attachment: fixed;
-    background-image:url("../static/vine.png");
-    background-position: bottom right;
-
-
-    /*-webkit-background-size: cover !important;*/
-    /*-moz-background-size: cover !important;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover !important;*/
-    /*z-index: -1;*/
 }
 
-
-@supports (-webkit-overflow-scrolling: touch) {
-  .paral-vine {
-  background-attachment: scroll;
-  }
+.paral-scroll{
+    background-attachment: scroll;
 }
 
-.jumbotron{
-    margin-bottom: 0;
+.test{
+    border: 4mm ridge rgba(170, 50, 220, .6);
 }
+
 
 /*Show carousel buttons (due to white background)*/
 .carousel-control-next-icon,
