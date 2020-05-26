@@ -2,10 +2,18 @@
     max-height: 350px;
 }
 
+#carousel-tetimonios{
+    height: 370px;
+}
+
 .leer{
     color: #85144b;
     text-decoration: none;
     border-bottom: none;
+}
+
+.leer:hover {
+    text-decoration-color: #85144b;
 }
 
 .navbar{
@@ -73,19 +81,6 @@
     /*mix-blend-mode: difference;*/
 }
 
-/*.paral p {*/
-/*    font-size: 60px;*/
-/*    text-align: center;*/
-/*    padding-top: 60px;*/
-/*    line-height: 100px;*/
-/*}*/
-
-/*.blend {*/
-  /*mix-blend-mode: difference;*/
-  /*color: white;*/
-  /*filter: drop-shadow(.035em .035em silver)*/
-/*}*/
-
 .succ-img {
     background-image:url("../static/suculent.png");
     background-position: center right;
@@ -101,6 +96,20 @@
     background-attachment: fixed;
     background-image:url("../static/vine.png");
     background-position: bottom right;
+
+
+    /*-webkit-background-size: cover !important;*/
+    /*-moz-background-size: cover !important;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover !important;*/
+    /*z-index: -1;*/
+}
+
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .paral-vine {
+  background-attachment: scroll;
+  }
 }
 
 .jumbotron{
@@ -157,7 +166,10 @@ body{
     font-family: Bellota, serif !important;
     background-color: #eee;
     color: #111111;
-    line-height: 1.75em
+    line-height: 1.75em;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6,
