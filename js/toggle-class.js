@@ -21,4 +21,6 @@ if (isIOS === true){
    $(".paral-vine").toggleClass("paral-fixed");
    $(".paral-vine").toggleClass("paral-scroll");
    console.log($(".paral-vine"));
+
+
 }

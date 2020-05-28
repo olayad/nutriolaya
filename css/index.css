@@ -10,10 +10,12 @@
     color: #85144b;
     text-decoration: none;
     border-bottom: none;
+    cursor: pointer;
 }
 
 .leer:hover {
-    text-decoration-color: #85144b;
+    /*text-decoration-color: #85144b;*/
+	text-decoration: none;
 }
 
 .navbar{
